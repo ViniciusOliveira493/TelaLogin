@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de login com responsividade">
+    <title>Login</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/devices.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <div id="imgLogin">
+            
+        </div>
+        <div id="divForm">
+            <h1>Login</h1>
+            <p>
+                Olá, seja bem vindo(a) novamente. Faça login para acessar a sua conta.
+            </p>
+            <form action="" autocomplete="on">
+                <div class="field">
+                    <span class="material-icons">
+                        person
+                    </span>
+                    <label for="txtEmail"></label>
+                    <input type="email" name="txtEmail" id="txtEmail" placeholder="E-mail" autocomplete="email" maxlength="320">
+                </div>
+
+                <div class="field">
+                    <span class="material-icons">
+                        vpn_key
+                    </span>
+                    <label for="txtPasswd"></label>
+                    <input type="password" name="txtPasswd" id="txtPasswd" placeholder="Senha" minlength="8" autocomplete="current-password">
+                </div>
+
+                <div id="divBtns">
+                    <button id="btnSignIn">
+                        <span>Entrar</span>
+                    </button>
+
+                    <button id="btnForgotPass">
+                        <span>Esqueci a senha</span>
+                        <span class="material-icons">
+                            mail
+                        </span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
